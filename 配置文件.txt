@@ -103,6 +103,7 @@ static=新加坡节点, server-tag-regex=新加坡|🇸🇬|SG|Singapore, img-ur
 static=美国节点, server-tag-regex=美国|🇺🇸|US|United States, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png
 static=Apple, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
 static=哔哩哔哩, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/bilibili.png
+static=Spotify, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
 static=网易云音乐, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
 static=爱奇艺, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/iQIYI.png
 static=Telegram, server-tag-regex= ., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
@@ -149,6 +150,7 @@ FILTER_REGION, tag=CN, force-policy=direct, update-interval=172800, opt-parser=f
 https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Region/China.list, tag=国内网站, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
 https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Media/Domestic/BiliBili.list, tag=bilibili, force-policy=哔哩哔哩, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/iQiyi.list, tag=爱奇艺, force-policy=爱奇艺, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Foreign/Spotify.list, tag=Spotify, force-policy=Spotify, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netease%20Music.list, tag=网易云音乐, force-policy=网易云音乐, update-interval=86400, opt-parser=false, enabled=true
 https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Services/Apple.list, tag=Apple, force-policy=Apple, update-interval=172800, opt-parser=false, enabled=true
 https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Services/SNS/Telegram.list, tag=Telegram, force-policy=Telegram, update-interval=172800, opt-parser=false, enabled=true
