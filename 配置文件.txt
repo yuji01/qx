@@ -101,10 +101,6 @@ server = 8.8.8.8
 //其中还可以这样改 ssid = xxxx, SS1, SS2, wifiname1:direct,192.198.1.100:direct
 
 static=节点选择, 自建, Blinkload, EMO, 一元, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, proxy, direct, reject, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Airport.png
-static=自建, resource-tag-regex=自建, img-url=airplane.system
-static=Blinkload, resource-tag-regex=Blinkload, img-url=airplane.system
-static=EMO, resource-tag-regex=EMO, img-url=airplane.system
-static=一元, resource-tag-regex=一元机场, img-url=airplane.system
 static=香港节点, server-tag-regex=香港|🇭🇰|HK|hk||Hong Kong, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/HK.png
 static=台湾节点, server-tag-regex=台湾|TW|tw|Taiwan, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/TW.png
 static=日本节点, server-tag-regex=日本|🇯🇵|JP|jp|Japan, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/JP.png
