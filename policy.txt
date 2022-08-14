@@ -6,6 +6,7 @@ static=新加坡节点, server-tag-regex=新加坡|🇸🇬|SG|Singapore, img-ur
 static=美国节点, server-tag-regex=美国|🇺🇸|US|United States, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png
 static=Apple, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
 static=哔哩哔哩, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/bilibili.png
+static=爱奇艺, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/iQIYI.png
 static=网易云音乐, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
 static=Telegram, server-tag-regex= ., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
 static=YouTube, server-tag-regex= ., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
