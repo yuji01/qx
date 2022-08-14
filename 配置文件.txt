@@ -108,7 +108,7 @@ static=新加坡节点, server-tag-regex=新加坡|🇸🇬|SG|sg|Singapore, img
 static=美国节点, server-tag-regex=美国|🇺🇸|US|us|United States, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/US.png
 static=Apple, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, server-tag-regex=. , img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Apple.png
 static=哔哩哔哩, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, server-tag-regex=. , img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/bilibili.png
-static=Spotify, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Spotify.png
+static=Spotify, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, server-tag-regex=. , img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Spotify.png
 static=网易云音乐, direct, proxy, reject, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Netease_Music.png
 static=爱奇艺, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, server-tag-regex=. , img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/iQIYI.png
 static=Telegram, proxy, direct, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, server-tag-regex=. , img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Telegram.png
