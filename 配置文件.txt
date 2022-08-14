@@ -108,6 +108,7 @@ static=爱奇艺, direct, proxy, reject, 节点选择, 香港节点, 台湾节�
 static=Telegram, server-tag-regex= ., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
 static=YouTube, server-tag-regex= ., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
 static=TikTok, server-tag-regex= ., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TikTok.png
+static=迪士尼, server-tag-regex=., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Disney+.png
 static=Netflix, server-tag-regex= ., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
 static=广告拦截, reject, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/AdBlack.png
 ;static = policy-name-1, Sample-A, Sample-B, Sample-C, img-url=http://example.com/icon.png
@@ -153,6 +154,7 @@ https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Services/Apple
 https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Services/SNS/Telegram.list, tag=Telegram, force-policy=Telegram, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Foreign/YouTube.list, tag=YouTube, force-policy=YouTube, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok.list, tag=Tiktok, force-policy=TikTok, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Foreign/DisneyPlus.list, tag=迪士尼+, force-policy=迪士尼, update-interval=172800, opt-parser=false, enabled=true
 https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Media/Foreign/Netflix.list, tag=Netflix, force-policy=Netflix, update-interval=172800, opt-parser=false, enabled=true
 https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Region/Global.list, tag=国外网站, force-policy=节点选择, update-interval=172800, opt-parser=false, enabled=true
 
