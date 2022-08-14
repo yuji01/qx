@@ -95,23 +95,32 @@ server = 8.8.8.8
 # Param resource-tag-regex and server-tag-regex only work for static, available and round-robin type of polices.
 #
 [policy]
-static=节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, proxy, direct, reject, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Airport.png
-static=香港节点, server-tag-regex=香港|🇭🇰|HK |Hong Kong, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
-static=台湾节点, server-tag-regex=台湾|TW|Taiwan, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TW.png
-static=日本节点, server-tag-regex=日本|🇯🇵|JP |Japan, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/JP.png
-static=新加坡节点, server-tag-regex=新加坡|🇸🇬|SG|Singapore, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/SG.png
-static=美国节点, server-tag-regex=美国|🇺🇸|US|United States, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png
-static=Apple, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
-static=哔哩哔哩, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/bilibili.png
-static=Spotify, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
-static=网易云音乐, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
-static=爱奇艺, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/iQIYI.png
-static=Telegram, server-tag-regex= ., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=YouTube, server-tag-regex= ., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
-static=TikTok, server-tag-regex= ., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TikTok.png
-static=迪士尼, server-tag-regex=., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Disney+.png
-static=Netflix, server-tag-regex= ., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
-static=广告拦截, reject, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/AdBlack.png
+
+//ssid = SSID, 节点选择, 节点选择, 2201:DIRECT
+//策略=策略组名，切到移动数据时使用的策略，切到非指定wifi所切换的策略，指定的wifi名称：指定wifi选择的策略
+//其中还可以这样改 ssid = xxxx, SS1, SS2, wifiname1:direct,192.198.1.100:direct
+
+static=节点选择, 自建, Blinkload, EMO, 一元, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, proxy, direct, reject, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Airport.png
+static=自建, resource-tag-regex=自建, img-url=airplane.system
+static=Blinkload, resource-tag-regex=Blinkload, img-url=airplane.system
+static=EMO, resource-tag-regex=EMO, img-url=airplane.system
+static=一元, resource-tag-regex=一元机场, img-url=airplane.system
+static=香港节点, server-tag-regex=香港|🇭🇰|HK|hk||Hong Kong, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/HK.png
+static=台湾节点, server-tag-regex=台湾|TW|tw|Taiwan, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/TW.png
+static=日本节点, server-tag-regex=日本|🇯🇵|JP|jp|Japan, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/JP.png
+static=新加坡节点, server-tag-regex=新加坡|🇸🇬|SG|sg|Singapore, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/SG.png
+static=美国节点, server-tag-regex=美国|🇺🇸|US|us|United States, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/US.png
+static=Apple, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Apple.png
+static=哔哩哔哩, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/bilibili.png
+static=Spotify, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Spotify.png
+static=网易云音乐, direct, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Netease_Music.png
+static=爱奇艺, direct, proxy, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/iQIYI.png
+static=Telegram, proxy, direct, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Telegram.png
+static=YouTube, proxy, direct, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/YouTube.png
+static=TikTok, proxy, direct, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/TikTok.png
+static=迪士尼, proxy, direct, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Disney+.png
+static=Netflix, proxy, direct, reject, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/Netflix.png
+static=广告拦截, reject, direct, img-url=https://github.com/yuji01/quantumuitx-icon/raw/master/IconSet/AdBlack.png
 ;static = policy-name-1, Sample-A, Sample-B, Sample-C, img-url=http://example.com/icon.png
 ;available = policy-name-2, Sample-A, Sample-B, Sample-C
 ;round-robin = policy-name-3, Sample-A, Sample-B, Sample-C
@@ -140,26 +149,23 @@ static=广告拦截, reject, direct, img-url=https://raw.githubusercontent.com/K
 # When there is a force-policy, then the policy in filter of remote resource will be ignored and the force-policy will be used.
 #
 [filter_remote]
-FILTER_LAN, tag=LAN, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
-http://limbopro.xyz/Adblock4limbo.list, tag=毒奶特供, force-policy=广告拦截, update-interval=172800, opt-parser=false, enabled=true
-https://limbopro.com/Adblock4limbo.list, tag=毒奶去广告, force-policy=广告拦截, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt, tag=野比(AD_Block), force-policy=广告拦截, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list, tag=AdReject, force-policy=广告拦截, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt, tag=野比(AD_Block_Plus)会拦截YouTube记录, force-policy=广告拦截, update-interval=172800, opt-parser=false, enabled=false
-FILTER_REGION, tag=CN, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
-https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Region/China.list, tag=国内网站, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
-https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Media/Domestic/BiliBili.list, tag=bilibili, force-policy=哔哩哔哩, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/iQiyi.list, tag=爱奇艺, force-policy=爱奇艺, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Foreign/Spotify.list, tag=Spotify, force-policy=Spotify, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netease%20Music.list, tag=网易云音乐, force-policy=网易云音乐, update-interval=86400, opt-parser=false, enabled=true
-https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Services/Apple.list, tag=Apple, force-policy=Apple, update-interval=172800, opt-parser=false, enabled=true
-https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Services/SNS/Telegram.list, tag=Telegram, force-policy=Telegram, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Foreign/YouTube.list, tag=YouTube, force-policy=YouTube, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok.list, tag=Tiktok, force-policy=TikTok, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Foreign/DisneyPlus.list, tag=迪士尼+, force-policy=迪士尼, update-interval=172800, opt-parser=false, enabled=true
-https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Media/Foreign/Netflix.list, tag=Netflix, force-policy=Netflix, update-interval=172800, opt-parser=false, enabled=true
-https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Region/Global.list, tag=国外网站, force-policy=节点选择, update-interval=172800, opt-parser=false, enabled=true
-
+http://limbopro.xyz/Adblock4limbo.list, tag=毒奶特供, force-policy=广告拦截, update-interval=172800, opt-parser=true, enabled=true
+https://limbopro.com/Adblock4limbo.list, tag=毒奶去广告, force-policy=广告拦截, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/NobyDa/ND-AD/raw/master/QuantumultX/AD_Block.txt, tag=野比(AD_Block), force-policy=广告拦截, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/NobyDa/ND-AD/raw/master/QuantumultX/AD_Block_Plus.txt, tag=野比(AD_Block_Plus)会拦截YouTube记录, force-policy=广告拦截, update-interval=172800, opt-parser=true, enabled=false
+https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Advertising/AdReject.list, tag=AdReject, force-policy=广告拦截, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Services/Apple.list, tag=Apple, force-policy=Apple, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Media/Domestic/BiliBili.list, tag=bilibili, force-policy=哔哩哔哩, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Media/Domestic/NeteaseMusic.list, tag=网易云音乐, force-policy=网易云音乐, update-interval=86400, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Media/Domestic/iQiyi.list, tag=爱奇艺, force-policy=爱奇艺, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Region/China.list, tag=国内网站, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Media/Foreign/Spotify.list, tag=Spotify, force-policy=Spotify, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Services/SNS/Telegram.list, tag=Telegram, force-policy=Telegram, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Media/Foreign/YouTube.list, tag=YouTube, force-policy=YouTube, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Media/Foreign/Tiktok.list, tag=Tiktok, force-policy=TikTok, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Media/Foreign/DisneyPlus.list, tag=迪士尼+, force-policy=迪士尼, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Media/Foreign/Netflix.list, tag=Netflix, force-policy=Netflix, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Region/Global.list, tag=国外网站, force-policy=节点选择, update-interval=172800, opt-parser=true, enabled=true
 ;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.snippet, tag=Sample, force-policy=your-policy-name, enabled=true
 ;https://example.com/filter.snippet, tag=Sample, force-policy=your-policy-name, require-devices=ID1, ID2, enabled=true
 
@@ -167,20 +173,20 @@ https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rules/Region/Global.
 # Params "tag" and "enabled" are optional.
 #
 [rewrite_remote]
-https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rewrite/Rewrite_General.conf, tag=sve1r重写4, update-interval=172800, opt-parser=false, enabled=false
-https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rewrite/Rewrite_FakeSite.conf, tag=sve1r重写3, update-interval=172800, opt-parser=false, enabled=false
-https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rewrite/Rewrite_CornersHua.conf, tag=sve1r重写2, update-interval=172800, opt-parser=false, enabled=false
-https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rewrite/Rewrite.conf, tag=sve1r重写1, update-interval=172800, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-US.conf, tag=TikTok解锁-美国, update-interval=172800, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-KR.conf, tag=TikTok解锁-韩国, update-interval=172800, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-TW.conf, tag=TikTok解锁-台湾, update-interval=172800, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-JP.conf, tag=TikTok解锁-日本, update-interval=172800, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=神机去Youtube广告重写订阅, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=神机去广告重写订阅1, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=神机去广告重写订阅2, update-interval=172800, opt-parser=false, enabled=true
-https://limbopro.com/Adblock4limbo.conf, tag=毒奶特供, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=NoByDa（lhie1 Rewrite）, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf, tag=NoByDa（NoByDa Rewrite）, update-interval=172800, opt-parser=false, enabled=true
+https://limbopro.com/Adblock4limbo.conf, tag=毒奶特供, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=神机去Youtube广告重写订阅, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Block/Advertising.conf, tag=神机去广告重写订阅, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=神机去广告plus重写订阅, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/NobyDa/Script/blob/master/QuantumultX/Rewrite_lhie1.conf, tag=野比（lhie1 Rewrite）, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/NobyDa/Script/blob/master/QuantumultX/Js.conf, tag=野比（js）, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rewrite/Rewrite_General.conf, tag=sve1r重写1, update-interval=172800, opt-parser=true, enabled=false
+https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rewrite/Rewrite.conf, tag=sve1r重写2, update-interval=172800, opt-parser=true, enabled=false
+https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rewrite/Rewrite_FakeSite.conf, tag=sve1r重写3, update-interval=172800, opt-parser=true, enabled=false
+https://github.com/sve1r/Rules-For-Quantumult-X/raw/develop/Rewrite/Rewrite_CornersHua.conf, tag=sve1r重写4, update-interval=172800, opt-parser=true, enabled=false
+https://github.com/Semporia/TikTok-Unlock/blob/master/Quantumult-X/TikTok-TW.conf, tag=TikTok解锁-台湾, update-interval=172800, opt-parser=true, enabled=false
+https://github.com/Semporia/TikTok-Unlock/blob/master/Quantumult-X/TikTok-JP.conf, tag=TikTok解锁-日本, update-interval=172800, opt-parser=true, enabled=false
+https://github.com/Semporia/TikTok-Unlock/blob/master/Quantumult-X/TikTok-US.conf, tag=TikTok解锁-美国, update-interval=172800, opt-parser=true, enabled=false
+https://github.com/Semporia/TikTok-Unlock/blob/master/Quantumult-X/TikTok-KR.conf, tag=TikTok解锁-韩国, update-interval=172800, opt-parser=true, enabled=false
 ;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-import-rewrite.snippet, tag=Sample, enabled=true
 ;https://example.com/rewrite.snippet, tag=Sample, require-devices=ID1, ID2, enabled=true
 
